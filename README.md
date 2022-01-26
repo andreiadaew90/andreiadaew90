@@ -18,5 +18,5 @@ Here are some ideas to get you started:
 <!-- TODO-IST:START -->
 * [x] Прокачать свой профиль на Github
 * [ ] Пройти курс по Git на Slurm
-* [ ] Создать свой первый проект на Github       
+* [x] Создать свой первый проект на Github       
 <!-- TODO-IST:END -->
