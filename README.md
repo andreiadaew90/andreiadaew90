@@ -17,6 +17,6 @@ Here are some ideas to get you started:
  **Мои задачи на ближайшее время:**
 <!-- TODO-IST:START -->
 * [x] Прокачать свой профиль на Github
-* [ ] Пройти курс по Git на Slurm
+* [ ] Устроиться в IT контору для отработки навыка
 * [x] Создать свой первый проект на Github       
 <!-- TODO-IST:END -->
