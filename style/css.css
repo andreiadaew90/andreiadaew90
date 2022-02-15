@@ -1,0 +1,78 @@
+/* font-family: 'Red Hat Display', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body{
+    max-width: 1920px;
+    margin-left: 0;
+    padding-left: 230px;
+    padding-right: 230px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+/* заголовок второго уровня */
+.second-level-heading{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+}
+.navigation{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 620px;
+}
+/* список навигационных элементов */
+.navigation-link{
+    list-style-type: none;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin:0;
+    padding:0;
+}
+.navigation-item a{
+    text-decoration: none;
+    display:block;
+}
+.navigation-item{
+    margin: 30px;
+    display:block;
+}
+.logo{
+
+}
+.logo-tim{
+    margin: 30px;
+}
+
+/* верхний участок девушка на диване */
+.upper-section{
+    display: flex;
+    justify-content: space-between;
+}
+.upper-section-text{
+    /* 500 пх чтобы разъединить блоки    */
+    margin-right: 500px;
+    max-width: 640px;
+}
+.upper-section-text-header{
+    font-family: 'Red Hat Display', sans-serif;
+    width: 240px;
+    color: #FA5652;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+}
+.upper-section-text-first{
+    width: 400px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size:32px;
+    line-height: 39px;
+    color:#035755;
+    
+
+}
