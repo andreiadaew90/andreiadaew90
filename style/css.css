@@ -55,7 +55,7 @@ body{
 }
 .upper-section-text{
     /* 500 пх чтобы разъединить блоки    */
-    margin-right: 500px;
+    
     max-width: 640px;
 }
 .upper-section-text-header{
