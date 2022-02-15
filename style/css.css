@@ -4,8 +4,8 @@ font-family: 'Roboto', sans-serif; */
 body{
     max-width: 1920px;
     margin-left: 0;
-    padding-left: 230px;
-    padding-right: 230px;
+    padding-left: 0px;
+    padding-right: 0px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
@@ -45,7 +45,7 @@ body{
 
 }
 .logo-tim{
-    margin: 30px;
+       
 }
 
 /* верхний участок девушка на диване */
@@ -54,8 +54,6 @@ body{
     justify-content: space-between;
 }
 .upper-section-text{
-    /* 500 пх чтобы разъединить блоки    */
-    
     max-width: 640px;
 }
 .upper-section-text-header{
@@ -67,12 +65,15 @@ body{
     line-height: 39px;
 }
 .upper-section-text-first{
-    width: 400px;
+    width: 640px;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
-    font-size:32px;
-    line-height: 39px;
+    font-size:52px;
+    line-height: 73px;
     color:#035755;
-    
-
+}
+.upper-section-text-second{
+    width: 640px;
+    font-size: 24px;
+    line-height: 46px;
 }
