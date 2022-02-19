@@ -1,79 +1,162 @@
-/* font-family: 'Red Hat Display', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
 body{
-    max-width: 1920px;
-    margin-left: 0;
-    padding-left: 0px;
-    padding-right: 0px;
+    width: 1920px;
+    margin: 0 auto;
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    color: #4B4F51;
+    /* background: linear-gradient(0deg, rgba(255, 255, 255, 0) -29.64%, #FFF8F8 45.66%, #B57474 45.66%); */
+}
+.header{
+    padding-top: 36px;
 }
 /* заголовок второго уровня */
 .second-level-heading{
-    font-family: 'Red Hat Display', sans-serif;
     font-size: 50px;
     line-height: 60px;
     font-weight: 700;
 }
+/* как сделать так чтобы не было отступа слева у навигации? */
 .navigation{
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    gap: 620px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-right: 620px;
 }
 /* список навигационных элементов */
 .navigation-link{
-    list-style-type: none;
-    max-width: 600px;
     display: flex;
     justify-content: space-between;
-    margin:0;
-    padding:0;
-}
-.navigation-item a{
-    text-decoration: none;
-    display:block;
+    list-style-type: none;
 }
 .navigation-item{
     margin: 30px;
     display:block;
 }
-.logo{
-
+.navigation-item-contact{
+    margin-top: 11px;
+    padding: 17px 44px;
+    border-radius: 46px;
+    border: 2px solid #FB4C47;
 }
-.logo-tim{
-       
+.a{
+    text-decoration: none;
+    display:block;
+    color:#035755;
 }
-
+.btn1{
+    color: red;
+    font-size: 18px;
+    line-height: 22px;
+}
+.btn2{
+    color: red;
+    font-size: 18px;
+    line-height: 22px;
+}
 /* верхний участок девушка на диване */
 .upper-section{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 123px;
 }
 .upper-section-text{
     max-width: 640px;
+    height: 443px;
+    margin-right: 0;
 }
 .upper-section-text-header{
-    font-family: 'Red Hat Display', sans-serif;
     width: 240px;
     color: #FA5652;
     font-size: 32px;
     font-weight: 700;
     line-height: 39px;
+    margin-bottom: 16px;
 }
 .upper-section-text-first{
     width: 640px;
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: 700;
     font-size:52px;
     line-height: 73px;
     color:#035755;
+    font-weight: 700;
+    margin-bottom: 29px;
 }
 .upper-section-text-second{
     width: 640px;
     font-size: 24px;
     line-height: 46px;
+    margin-bottom: 54px;
+}
+.upper-section-text a{
+    width: 250px;
+    height: 80px;
+    padding: 24px 57px 28px 66px;
+    background-color: #FB4C47;
+    color: white;
+    border-radius: 65px;
+    text-decoration: none;
+    
+}
+.upper-section-a{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+}
+/* Вторая секция */
+.сoronavirus{
+    display: flex;
+    gap: 68px;
+}
+.blot{
+    transform: rotate(-10.07deg);
+}
+.coronavirus-section{
+    width: 648px;
+}
+.coronavirus-section-text-h2{
+    width: 288px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 119%;
+    color: #035755;
+    margin-bottom: 18px;
+}
+.coronavirus-section-text{
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 124%;
+    color: #FA5652;
+}
+.coronavirus-section-p{
+    font-size: 20px;
+    line-height: 215%;
+    text-transform: capitalize;
+    margin-bottom: 56px;
+}
+.coronavirus-a{
+    text-decoration: none;
+    color: #FA5652;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 21px 49px;
+    background: rgba(250, 86, 82, 0.15);
+    border-radius: 65px;
+}
+.blot-max{
+    margin-top: -147px;
+    margin-left: 700px;
+    transform: matrix(0.76, -0.66, -0.66, -0.76, 0, 0);
+}
+.blot-min{
+    margin-top: -21px;
+    margin-left: 590px;
+    transform: matrix(0.81, -0.59, -0.59, -0.81, 0, 0);
+}
+/* секция 3 */
+.contagion{
+    
 }
