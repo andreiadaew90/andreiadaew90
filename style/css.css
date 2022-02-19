@@ -160,3 +160,46 @@ body{
 .contagion{
     
 }
+.contagion-header{
+    margin: 0 auto;
+    width: 550px;
+   text-align: center;
+}
+.contagion-header-h2{
+    width: 248px;
+    color:#035755;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 119%;
+    text-transform: capitalize;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.contagion-header-text{
+    font-weight:700;
+    font-size: 29px;
+    line-height: 124%;
+    color: #FA5652;
+    margin-bottom: 25px;
+}
+.contagion-header-p{
+    font-size: 18px;
+    line-height: 215%;
+    text-transform: capitalize;
+    margin-bottom: 111px;
+}
+.contagion-ul{
+    display: flex;
+    justify-content: center;
+	flex-direction: row;
+    gap: 30px;
+}
+.contagion-li{
+    width: 461px;
+    height: 575px;
+    background-color: #ffffff;
+    list-style-type: none;
+}
+.contagion-img{
+    order: -1;
+}
